@@ -62,3 +62,29 @@ console.log(`The sum of ${num1} and ${num2} is ${num1 + num2}`);
 console.log(`The difference of ${num1} and ${num2} is ${num1 - num2}`);
 console.log(`The product of ${num1} and ${num2} is ${num1 * num2}`);
 console.log(`The division of ${num1} and ${num2} is ${num1 / num2}`);
+// Multi-line Strings
+
+let multiLineString = 
+`This is a multi-line string.
+IT Allows you to create website :
+- Dynamic Websites
+- Web Applications
+- Mobile Applications
+- Desktop Applications`;
+console.log(multiLineString);
+
+// Nested Template Literals
+
+let firstNameOfNestes = "Alice";
+let lastNameOfNestes = "Smith";
+let yearOfBirth = 1990;
+let currentYearOfNestes = 2025;
+let ageOfNestes = currentYearOfNestes - yearOfBirth;
+let introduction = `Hi , my name is ${firstNameOfNestes} ${lastNameOfNestes},
+I am ${ageOfNestes} years old. I was born in ${yearOfBirth}. I am learning JavaScript.`;
+console.log(introduction);
+//  Conditional Rendering with Tenary Operators
+
+let score = 85;
+let result = `${score >=50 ?"Pass":"Fail"}`;
+console.log(`Your Score is ${score}. You ${result} the exam.`);
